@@ -64,7 +64,7 @@ export default function Home() {
           </button>
         </>
       ) : (
-        DeLabButton
+        <div className='w-[200px]'>{DeLabButton}</div>
       )}
     </div>
   );
