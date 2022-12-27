@@ -1,5 +1,9 @@
 {
-  "name": "web3-auth",
+  "name": "delab-nextjs-template",
+  "author": "Mark Okhman",
+  "description": "Next.js Template for DeLab's modal package with different TON wallets for React JS",
+  "repository": "https://github.com/markokhman/delab-nextjs-template",
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "scripts": {
