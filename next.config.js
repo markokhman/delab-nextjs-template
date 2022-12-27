@@ -2,6 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
-
-module.exports = nextConfig
+};
+const withTM = require("next-transpile-modules")(["@delab-team/connect"]); // pass the modules you would like to see transpiled
+module.exports = withTM(nextConfig);
